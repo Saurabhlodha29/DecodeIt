@@ -1,0 +1,10 @@
+# LangChain
+langchain==1.4.2
+python-dotenv==1.2.3
+
+# LangGraph
+langgraph==1.2.11
+
+# FastAPI
+fastapi==0.141.1
+pydantic
