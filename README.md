@@ -340,7 +340,7 @@ Review & Merge
 
 ```
 
-The repository currently has `README.md` and `.gitignore` on the `main` branch, so this structure can be added directly to the README. :contentReference[oaicite:0]{index=0}
+The repository currently has `README.md` and `.gitignore` on the `main` branch, so this structure can be added directly to the README.
 
-The `.gitignore` and virtual-environment practices above also follow GitHub and VS Code's current guidance. :contentReference[oaicite:1]{index=1}
+The `.gitignore` and virtual-environment practices above also follow GitHub and VS Code's current guidance.
 ```
