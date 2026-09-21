@@ -28,3 +28,12 @@ if _missing:
         + ", ".join(_missing)
         + ". Copy .env.example to .env and fill them in."
     )
+    
+# Origins allowed to call the API from a browser. Comma-separated in .env.
+CORS_ORIGINS = [
+    o.strip()
+    for o in os.getenv(
+        "CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173"
+    ).split(",")
+    if o.strip()
+]
