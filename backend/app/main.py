@@ -1,3 +1,5 @@
+"""FastAPI application entry point: creates the app, wires up CORS, and registers routers."""
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import CORS_ORIGINS
